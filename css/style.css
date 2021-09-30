@@ -173,12 +173,13 @@ img {
   }
 }
 @media screen and (max-width:700px){
-  .hero__nav-bar{
+  /* .hero__nav-bar{
     display: none;
-  }
+  } */
   .hero__menu-btn{
     display: block;
   }
+  
 }
 @media screen and (max-width:576px) {
   .hero__logo-link img{
@@ -290,7 +291,7 @@ img {
     line-height: 28px;
   }
   .about__text{
-    width: 279px;
+    max-width: 279px;
     margin: 0 auto;
     text-align: center;
   }
@@ -307,7 +308,7 @@ img {
     line-height: 27px;
   }
   .about__text{
-    width: 220px;
+    max-width: 220px;
     margin: 0 auto;
     text-align: center;
   }
@@ -318,6 +319,169 @@ img {
 }
 
 
+.comitiment {
+  padding-bottom: 168px;
+}
+.comitiment__img-box {
+  width: 445px;
+  height: 520px;
+  background-image: url("../img/comitiment-img.png");
+  background-repeat: no-repeat;
+  background-size: 485px 606px;
+  background-position: right top;
+}
+.comitiment__title {
+  font-family: 'Fraunces', serif;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+  margin-bottom: 32px;
+}
+.comitiment__text {
+  margin: 0;
+  padding: 0;
+  max-width: 539px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media screen and (max-width:1265px){
+  .comitiment__text{
+    max-width: 400px;
+  }
+  .comitiment__title{
+    font-size: 38px;
+  }
+}
+@media screen and (max-width:1100px){
+  .comitiment__text{
+    max-width: 350px;
+  }
+  .comitiment__title{
+    font-size: 36px;
+  }
+}
+@media screen and (max-width:1050px){
+  .comitiment__text{
+    max-width: 300px;
+  }
+  .comitiment__title{
+    font-size: 34px;
+  }
+}
+@media screen and (max-width:970px){
+  .comitiment__text{
+    max-width: 300px;
+  }
+  .comitiment__title{
+    font-size: 34px;
+    line-height: 34px;
+  }
+  .comitiment__img-box{
+    width: 350px;
+  }
+}
+@media screen and (max-width:890px){
+  
+  .comitiment__title{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .comitiment__img-box{
+    width: 350px;
+  }
+}
+@media screen and (max-width:870px){
+  
+  .comitiment__title{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .comitiment__img-box{
+    width: 300px;
+  }
+}
+@media screen and (max-width:820px){
+  .comitiment__img-box{
+    width: 260px;
+  }
+}
+@media screen and (max-width:768px){
+  .comitiment__text{
+    font-size: 15px;
+    width: 339px;
+    line-height: 25px;
+  }
+  .comitiment__title{
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .comitiment__img-box{
+    width: 250px;
+    background-position: left -76px top;
+  }
+}
+@media screen and (max-width:755px){
+  .comitiment__img-box{
+    width: 230px;
+  }
+}
+@media screen and (max-width:715px){
+  .comitiment__img-box{
+    width: 230px;
+  }
+  .comitiment__text{
+    max-width: 272px;
+  }
+}
+@media screen and (max-width:690px){
+  .comitiment__img-box{
+    width: 200px;
+  }
+}
+@media screen and (max-width:645px){
+  .comitiment__img-box{
+    width: 150px;
+  }
+  .comitiment__text{
+    max-width: 258px;
+  }
+  .comitiment__title{
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width:576px){
+  .comitiment__img-box{
+    width: 100%;
+    margin-bottom: 48px;
+  }
+  .comitiment__title{
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .comitiment__text{
+    max-width: 100%;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto
+  }
+  .comitiment__content{
+    width: 100%;
+  }
+}
 
 
 .footer{
